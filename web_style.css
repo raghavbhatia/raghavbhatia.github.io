@@ -1,0 +1,54 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+}
+nav
+{
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: white;
+  line-height: 60px;
+  height: 60px;
+  text-align: center;
+  z-index: 500;
+  top: 0;
+}
+
+#slideshow
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.slides
+{
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+nav a
+{
+  text-decoration: none;
+  padding: 2px;
+  color: white;
+  font-size: 250%;
+}
+nav a:hover
+{
+  background-color: white;
+  color: black;
+}
+.text
+{
+  padding: 15px;
+  text-align: center;
+  font-size: 200%;
+}
